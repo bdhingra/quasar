@@ -20,6 +20,8 @@ Quasar-S: [Quiz](http://murph.ml.cmu.edu/clozemble/so/welcome) | [Search Engine]
 
 Quasar-T: [Quiz](http://murph.ml.cmu.edu/clozemble/trivia/welcome) | [Search Engine](http://murph.ml.cmu.edu/solr/clozemble-cw/browse)
 
+The search engine used here is Solr, which uses a Lucene backend similar to the search phase described in the paper. The corpus in each case is the set of short pseudodocuments (sentences) pooled across all queries for that corpus, with no query identifiers or tag filtering. This is just a bare-bones search engine guaranteed *not* to yield the exact source sentence for the question (as you'd get by just using Google).
+
 ## Citation
 
 If you use these datasets please cite the following:
