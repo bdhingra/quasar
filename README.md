@@ -1,6 +1,6 @@
 # Quasar
 
-Datasets accompanying the paper [Quasar: Datasets for QA by Search and Reading].
+Datasets accompanying the paper [Quasar: Datasets for QA by Search and Reading](http://arxiv.org/abs/1707.03904).
 
 ## Download
 
@@ -26,4 +26,11 @@ The search engine used here is Solr, which uses a Lucene backend similar to the 
 
 If you use these datasets please cite the following:
 
-(To add)
+```
+@article{dhingra2017quasar,
+  title={Quasar: Datasets for Question Answering by Search and Reading},
+  author={Dhingra, Bhuwan and Mazaitis, Kathryn and Cohen, William W},
+  journal={arXiv preprint arXiv:1707.03904},
+  year={2017}
+}
+```
