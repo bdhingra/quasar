@@ -12,7 +12,7 @@ Both Quasar-S and Quasar-T are available for download [here](http://curtis.ml.cm
 4. For Quasar-T, separate lists of noun phrases extracted from the contexts of each question.
 5. Annotations of subset of dev set questions, as described in the paper.
 
-The background corpus for Quasar-S can be downloaded from [here](http://curtis.ml.cmu.edu/gnat/software/) (via the SO Scrape link at the bottom). The background corpus for Quasar-T is ClueWeb09 dataset which you can access [here](https://lemurproject.org/clueweb09/).
+The background corpus for Quasar-S can be downloaded from [here](http://curtis.ml.cmu.edu/gnat/software/) (via the SO Scrape link at the bottom). The background corpus for Quasar-T is the ClueWeb09 dataset which you can access [here](https://lemurproject.org/clueweb09/).
 
 ## Explore the Datasets
 
