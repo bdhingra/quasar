@@ -11,12 +11,15 @@ def _clean_string(x):
         for t in toks])
 
 def exact_match(x1, x2):
+    # x1 and x2 are predicted answer and ground truth answer,
+    # in any order.
     xc1 = _clean_string(x1)
     xc2 = _clean_string(x2)
     return xc1==xc2
 
 def f1_match(x1, x2):
-    # x1 is treated as Ground Truth.
+    # x1 is ground truth answer.
+    # x2 is the predicted answer.
     tok1 = set(map(lambda t:_clean_string(t), x1.split()))
     tok2 = set(map(lambda t:_clean_string(t), x2.split()))
     l1 = len(tok1)
